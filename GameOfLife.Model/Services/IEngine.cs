@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameOfLife.Model.Model
+namespace GameOfLife.Model.Services
 {
-    public class Point
+    public interface IEngine
     {
-        public readonly int X;
-
-        public readonly int Y;
+        void run();
     }
 }

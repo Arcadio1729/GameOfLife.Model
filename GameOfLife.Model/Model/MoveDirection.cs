@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameOfLife.Model.Model
 {
-    public class Point
+    public enum MoveDirection
     {
-        public readonly int X;
-
-        public readonly int Y;
+        FORWARD,
+        BACKWARD,
+        RIGHT,
+        LEFT
     }
 }

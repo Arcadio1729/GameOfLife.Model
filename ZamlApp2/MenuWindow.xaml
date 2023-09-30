@@ -1,0 +1,12 @@
+﻿<Window x:Class="ZamlApp2.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZamlApp2"
+        mc:Ignorable="d"
+        Title="Welcome Window" Height="500" Width="500">
+    <Grid Background="#FFF9FFBD">
+        <Label Content="It's a game. However it's not a game we are playing. &#xD;&#xA;This will be a world evolving dynamically (simulator). &#xD;&#xA;That's jungle with food and animals. Food gives energy. &#xD;&#xA;If two animals have engough energy they can reproduce." FontWeight="Bold" FontSize="16"/>
+    </Grid>
+</Window>
